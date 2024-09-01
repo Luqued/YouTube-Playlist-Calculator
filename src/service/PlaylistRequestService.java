@@ -20,7 +20,7 @@ public class PlaylistRequestService {
     private static final String PLAYLIST_ID_PARAM = "&playlistId=";
     private static final String VIDEO_API_URL = "https://youtube.googleapis.com/youtube/v3/videos?part=contentDetails&";
     private static final String VIDEO_FIELDS_PARAM = "maxResults=300&fields=items(contentDetails(duration))";
-    private static final String API_KEY = "&key=AIzaSyBpIRmo7OQtGUkb5K6FNZ2mmkOcco5JrLc";
+    private static final String API_KEY = "&key=";
     private static String url = "";
 
     public static String playlistCalculatorTest(String playlistId) {
