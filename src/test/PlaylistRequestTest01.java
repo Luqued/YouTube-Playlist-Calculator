@@ -15,9 +15,9 @@ public class PlaylistRequestTest01 {
 
         long inicio = System.currentTimeMillis();
 
-        String playlistId = "PLkqz3S84Tw-SWvRC3wbtrtIoczzX3TpdK";
+        String playlistId = "PLAQ7nLSEnhWTEihjeM1I-ToPDJEKfZHZu";
 
-        PlaylistRequestService.playlistCalculatorTest(playlistId);
+        System.out.println(PlaylistRequestService.playlistCalculatorTest(playlistId));
 
         long fim = System.currentTimeMillis();
 
